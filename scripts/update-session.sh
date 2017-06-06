@@ -1,20 +1,18 @@
 #!/bin/bash
-TOKEN=BAhJIiU3MTRlMmNmYjU5N2U2NjVmOTc1ZTBhMTllYzI1ZTZlZAY6BkVG--fb64bb37267286432abb637b328fc811ebdedb42
+TOKEN=BAhJIiU5MTFhYTliZWFlNmQzNzRlZjAwYzdiMjJlNzQ1ZGE4NAY6BkVG--bd22c088d51e389f086005c11377ff6634fdc4ac
 ID=1
-OLDPW=test
-NEWPW=test2
+NPOMS=4
 
 API="${API_ORIGIN:-http://localhost:4741}"
-URL_PATH="/change-password"
+URL_PATH="/sessions"
 curl "${API}${URL_PATH}/${ID}" \
   --include \
   --request PATCH \
   --header "Authorization: Token token=${TOKEN}" \
   --header "Content-Type: application/json" \
   --data '{
-    "passwords": {
-      "old": "'"${OLDPW}"'",
-      "new": "'"${NEWPW}"'"
+    "session": {
+      "n_pomodoro": "'"${NPOMS}"'"
     }
   }'
 
