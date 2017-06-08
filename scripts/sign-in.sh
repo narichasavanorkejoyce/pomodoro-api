@@ -1,5 +1,5 @@
 #!/bin/bash
-EMAIL=dev
+EMAIL=hacker
 PASSWORD=test
 
 API="${API_ORIGIN:-http://localhost:4741}"
