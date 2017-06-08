@@ -1,5 +1,16 @@
-## ERD
+# Pomodoro Time
 
+This time management app uses the [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) to help people get stuff done.
+
+![Pomodoro](http://i.imgur.com/ndAsCdF.png)
+
+## Links
+- [Pomodoro Deployed Site](https://narichasavanorkejoyce.github.io/pomodoro-client/)
+- [API Repository](https://github.com/narichasavanorkejoyce/pomodoro-api)
+- [Client Repository](https://github.com/narichasavanorkejoyce/pomodoro-client)
+- [API](https://pomodoro-lyfe.herokuapp.com/)
+
+## ERD
 One-to-Many Relationship:
 - Users have many sessions
 - A session belongs to a user
@@ -7,6 +18,10 @@ One-to-Many Relationship:
 | ERD |
 |--------|-----------|----------|
 | Users  | -------<  | Sessions |
+
+## Development Process
+
+## Tech & Dependencies
 
 ### Authentication
 
