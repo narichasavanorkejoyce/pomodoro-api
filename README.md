@@ -19,7 +19,7 @@ This time management app uses the [pomodoro technique](https://en.wikipedia.org/
 ## Development Process
 The Pomodoro technique is a timeboxing method I've used for several years. The methodology calls for working in 25 minute intervals separated by 5 minute breaks. I was excited to build an app that would help me keep track of how many "pomodoros" I could do in one session of work.
 
-This project was a good opportunity to practice building in Rails. I decided that a two-table, one-to-many relationship was appropriate for this project. I spent a good amount of time at the beginning of the week reviewing my second project, which also used Ruby on Rails. After reviewing, I was able to implement the CRUD actions smoothly. I spend some time implementing back-end validations. For example, I control that the number of pomodoros must be an integer greater than or equal to zero.
+This project was a good opportunity to practice building in Rails. I decided that a two-table, one-to-many relationship was appropriate for this project. I spent a good amount of time at the beginning of the week reviewing my second project, which also used Ruby on Rails. After reviewing, I was able to implement the CRUD actions smoothly. I spent some time implementing back-end validations. For example, I controlled that the number of pomodoros must be an integer greater than or equal to zero.
 
 ## Challenges
 I spent the most time figuring out how to validate integers, especially when they need to be greater than a certain value. Luckily, Rails has a lot of great options for back-end validation.
